@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Index del curso de HTML y CCSS">
+    <meta name="robots" content="index, follow">
+    <title>Desafío 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Desafío con HTML y CSS</h1>
+    </header>
+    <main>
+        <section> 
+            <h1>Soy una lista de compras, con recetas!</h1>
+            <ul> 
+                <li>
+                    <h3>Verdulería</h3>
+                </li>
+                <ol> 
+                    <li>
+                        <a href="https://badiaspices.com.ar/verduras-especiadas/">Batata</a>
+                        <figure>
+                            <img src="./pics/Batata.jpg" alt="Batata"/>
+                            <figcaption>Receta con Batatas</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://badiaspices.com.ar/pure-de-papas/">Papa</a> 
+                        <figure>
+                            <img src="./pics/Papas.jpg" alt="Patata"/>
+                            <figcaption>Receta con Patatas</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://badiaspices.com.ar/limonada-de-sumac-2/">Limón</a> 
+                        <figure>
+                            <img src="./pics/Limones.jpg" alt="Limones"/>
+                            <figcaption>Receta con Limones</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <a href="https://badiaspices.com.ar/peras/">Peras</a> 
+                        <figure>
+                            <img src="./pics/Peras.jpg" alt="Peras"/>
+                            <figcaption>Receta con Peras</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </ul>
+        </section>  
+        <section> 
+            <ul> 
+                <li>
+                    <h3>Super</h3>
+                </li>
+                <ol> 
+                    <li>
+                        <a href="https://badiaspices.com.ar/guiso-de-lentejas/">Carne 🥩</a>
+                        <section>
+                            <video controls preload="auto">
+                                <source src="./videos/guiso_de_lenteja.mp4"     />
+                            </video>
+                        </section>
+                    </li>
+                    <li>
+                        <a href="https://badiaspices.com.ar/pan-provenzal-sin-amasar/">Harina 🥖</a> 
+                    </li>
+                    <li>
+                        <a href="https://badiaspices.com.ar/aderezo-tropical-2/">Salsa Inglesa 🥫</a> 
+                    </li>
+                    <li>
+                        <a href="https://badiaspices.com.ar/peras/">Peras 🍐</a> 
+                    </li>
+                </ol>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h2>Primer tipo de Formulario</h2>
+        <form action="">
+            <label for="nombre">
+                <span>Cual es tu nombre?</span>
+                <input type="text" id="nombre" placeholder="Tu nombre" autocomplete="name" required />
+            </label>
+            <label for="correo">
+                <span>Cual es tu correo electrónico?</span>
+                <input type="email" name="correo" id="correo" placeholder="Tu correo electrónico" autocomplete="email" required />
+            </label>
+            <!-- <select name="" id="">
+                <option value="America">America</option>
+                <option value="Europa">Europa</option>
+                <option value="Asia">Asia</option>
+            </select> -->
+            <span>Cual es tu Región??</span>
+            <input list="Region">
+            <datalist id="Region">
+                <option value="America">America</option>
+                <option value="Europa">Europa</option>
+                <option value="Asia">Asia</option>
+            </datalist>
+            <input type="submit">
+        </form>
+        <h2>Segundo tipo de Formulario</h2>
+        <form action="">
+            <label for="hora">
+                <span>Hora</span>
+                <input type="time" id="hora" name="hora" />
+            </label>
+            <label for="dia">
+                <span>Dia</span>
+                <input type="date" id="dia" name="dia" />
+            </label>
+            <label for="semana">
+                <span>Semana</span>
+                <input type="week" id="semana" name="semana" />
+            </label>
+            <label for="mes">
+                <span>Mes</span>
+                <input type="month" id="mes" name="mes" />
+            </label>
+            <input type="submit" value="Este es un segundo boton">
+        </form>
+        <h2>Tercer tipo de Formulario</h2>
+        <form action="">
+            <label for="calendario">
+                <span>Mes</span>
+                <input type="datetime-local" id="calendario" name="calendario" />
+            </label>
+            <button type="submit">Este es un tercer tipo de boton</button>
+        </form>
+        <h2>Busca más recetas por aquí</h2>
+        <a href="https://badiaspices.com.ar/" class="linkbadia">Badia Argentina</a>
+    </footer>
+</body>
+</html>

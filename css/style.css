@@ -1,0 +1,28 @@
+
+body {
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+header {
+    background-image:url(https://media.istockphoto.com/photos/many-colorful-spices-herbs-and-dried-fruits-on-the-wooden-rustic-picture-id1247902428?k=20&m=1247902428&s=612x612&w=0&h=VitePgxSYffY_8t4T6gWqoonYdEhTGlRY37OF8nsdnA=);
+    height: 200px;
+    background-size:cover;
+    text-align: center;
+    background-attachment: fixed;
+    font-size: 20px;
+}
+a {
+    color: #699568;
+}
+img {
+    border-radius: 10px;
+}
+footer {
+    background-color: #699568;
+    padding:10px;
+    text-align: center;
+}
+.linkbadia {
+    color:whitesmoke
+}
